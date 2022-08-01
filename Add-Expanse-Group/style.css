@@ -1,0 +1,74 @@
+.button {
+
+    padding-inline: 20px;
+    margin-top: 50px;
+    border-color: white;
+    background-color: white;
+    margin-bottom: 50px;
+    border-bottom: 0px;
+    border-right: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 3px;
+
+}
+
+.button:active {
+    background-color: orange;
+    border-radius: 50%;
+}
+
+
+.brand-name {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin-right: 350px;
+
+}
+
+.profile {
+    background-color: orange;
+    border-color: orange;
+    border-radius: 3px;
+    color: white;
+    margin-left: 320px;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif !important
+}
+
+.title {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.icon {
+    background-color: orange;
+    font-size: 30px;
+}
+
+.container {
+    text-align: center;
+}
+
+.input-position {
+    margin-top: 20px;
+    border-color: rgb(241, 233, 233);
+    border-style: groove;
+}
+
+
+.round-button {
+    display: block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #f5f5f5;
+    text-decoration: none;
+    background: rgba(241, 136, 14, 0.781);
+    box-shadow: 0 0 3px gray;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 32em;
+    margin-top: 20px;
+}
