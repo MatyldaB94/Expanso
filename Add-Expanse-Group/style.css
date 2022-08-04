@@ -1,10 +1,10 @@
 .button {
 
-    padding-inline: 20px;
+    padding-inline: 1em;
     margin-top: 50px;
     border-color: white;
     background-color: white;
-    margin-bottom: 50px;
+    margin-bottom: 8%;
     border-bottom: 0px;
     border-right: 0px;
     font-family: Arial, Helvetica, sans-serif;
@@ -20,8 +20,7 @@
 .brand-name {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 30px;
-
-
+    margin-right: 200px;
 }
 
 .container1 {
@@ -36,6 +35,7 @@
     border-color: orange;
     border-radius: 3px;
     color: white;
+    margin-left: 320px;
 
     font-size: 20px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif !important
@@ -44,7 +44,7 @@
 .title {
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 30px;
+    font-size: 280%;
 }
 
 .icon {
@@ -52,6 +52,8 @@
     font-size: 30px;
     border-radius: 50%;
     border: 10px solid orange;
+    margin-left: 30px;
+
 }
 
 .container {
@@ -66,8 +68,8 @@
 
 
 .round-button {
-
-    width: 40px;
+    display: block;
+    width: 3%;
     height: 40px;
     line-height: 40px;
     border-radius: 50%;
@@ -77,6 +79,47 @@
     box-shadow: 0 0 3px gray;
     font-size: 20px;
     font-weight: bold;
+    margin: 3% 0;
 
-    margin-top: 20px;
+
+
+}
+
+.tile {
+
+    display: flex;
+    justify-content: space-between;
+    padding: 3px;
+    border: 2px solid rgb(221, 218, 218);
+    margin-bottom: 10%;
+
+}
+
+.diwy {
+    width: 250px;
+    margin: 0 auto;
+}
+
+.tile-title {
+    margin: 0;
+}
+
+.sub-title {
+    margin: 0;
+}
+
+.tile-button {
+    cursor: pointer;
+
+
+}
+
+.tile-button:active {
+    border: 2px solid rgb(155, 155, 156);
+
+}
+
+.round-button1 {
+    display: flex;
+    justify-content: center;
 }
