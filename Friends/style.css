@@ -12,7 +12,7 @@
 
 }
 
-.button:active {
+.button:hover {
     background-color: orange;
 }
 
