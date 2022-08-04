@@ -64,10 +64,7 @@
 }
 
 .round-button {
-    display: block;
-    width: 40px;
-    height: 40px;
-    line-height: 40px;
+
     border-radius: 50%;
     color: #f5f5f5;
     text-decoration: none;
@@ -75,9 +72,8 @@
     box-shadow: 0 0 3px gray;
     font-size: 20px;
     font-weight: bold;
-    margin-left: 32em;
-    margin-top: 50px;
-    text-align: center;
+    margin-left: 33em;
+
 }
 
 .th1 {
@@ -92,8 +88,7 @@
 .table {
     border-collapse: collapse;
     margin-left: 10em;
-    margin-top: 20px;
-    padding-left: 100px;
+    margin-top: 5em;
 }
 
 .table1 {
@@ -101,7 +96,6 @@
     margin-left: 10em;
     margin-top: 5em;
     text-align: center;
-
 }
 
 .tr:nth-child(odd) td {
