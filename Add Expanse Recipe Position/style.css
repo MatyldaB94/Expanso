@@ -134,9 +134,8 @@
 }
 
 .round-button {
-    display: block;
+    display: flex;
     width: 10%;
-
     line-height: 40px;
     border-radius: 50%;
     color: #f5f5f5;
@@ -146,5 +145,7 @@
     font-size: 20px;
     font-weight: bold;
     margin: 3% 60%;
+    align-items: center;
+    justify-content: center;
 
 }
