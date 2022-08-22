@@ -13,7 +13,7 @@
 }
 
 .button:hover {
-    background-color: orange;
+    background-color: rgb(238, 119, 9);
 }
 
 .brand-name {
@@ -29,8 +29,8 @@
 }
 
 .profile {
-    background-color: orange;
-    border-color: orange;
+    background-color: rgb(238, 119, 9);
+    border-color: rgb(238, 119, 9);
     border-radius: 3px;
     color: white;
 
@@ -41,10 +41,10 @@
 
 
 .icon {
-    background-color: orange;
+    background-color: rgb(238, 119, 9);
     font-size: 30px;
     border-radius: 50%;
-    border: 10px solid orange;
+    border: 10px solid rgb(238, 119, 9);
 
 
 }
@@ -56,14 +56,6 @@
 }
 
 
-.number {
-    width: 20px;
-    margin-left: 110px;
-    border-color: white;
-    border-style: solid;
-    border-style: groove;
-}
-
 .value-money {
     width: 80px;
     margin-left: 60px;
@@ -72,9 +64,28 @@
 }
 
 .pizza-order {
-    text-align: center;
-
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
+
+.pizza {
+    display: flex;
+    margin-right: 100px;
+}
+
+.number-value {
+    display: flex;
+}
+
+.order-value {
+    display: flex;
+    margin-left: 100px;
+}
+
+
 
 .add-people {
     display: block;
@@ -82,7 +93,7 @@
     width: 260px;
     height: 40px;
     margin-top: 40px;
-    background-color: rgb(112, 174, 224);
+    background-color: rgb(31, 145, 238);
     color: white;
     border-radius: 5px;
     border-color: white;
@@ -103,4 +114,9 @@
 
 .pizza {
     font-size: 150%;
+}
+
+.number-of-people {
+    display: flex;
+    justify-content: space-between;
 }
