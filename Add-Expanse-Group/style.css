@@ -98,6 +98,7 @@
     border-right: none;
     border-bottom: none;
 
+
 }
 
 .tile1 {
@@ -128,11 +129,7 @@
     color: gray;
 }
 
-.tile-button {
-    cursor: pointer;
 
-
-}
 
 .tile-button:active {
     border: 2px solid rgb(155, 155, 156);
@@ -142,4 +139,10 @@
 .round-button1 {
     display: flex;
     justify-content: center;
+}
+
+span {
+    content: "\205E";
+    cursor: pointer;
+    margin-top: 10px;
 }
