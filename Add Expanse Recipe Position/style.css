@@ -119,15 +119,14 @@
     border: 3px solid rgb(233, 230, 230);
     padding: 10px 15px;
     text-align: center;
+    border-color: white;
+    border-style: solid;
 }
 
 .table {
     border-collapse: collapse;
     margin-left: 12em;
     margin-top: 20px;
-    border-color: white;
-    border-style: solid;
-
 }
 
 .tr:nth-child(odd) td {
@@ -135,10 +134,7 @@
 
 }
 
-.tr {
-    border-style: solid;
-    border-color: white;
-}
+
 
 .container {
     display: flex;
@@ -156,7 +152,7 @@
     text-decoration: none;
     background: rgb(238, 119, 9);
     box-shadow: 0 0 3px gray;
-    font-size: 20px;
+    font-size: xx-large;
     font-weight: bold;
     margin: 3% 60%;
     align-items: center;
