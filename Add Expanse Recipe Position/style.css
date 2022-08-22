@@ -112,11 +112,12 @@
     background-color: rgb(238, 119, 9);
     color: white;
     padding: 10px 50px 10px 50px;
-    border: 1px solid rgba(22, 22, 22, 0.822)
+    border: 1px solid rgba(255, 255, 255, 0.822);
+
 }
 
 .td {
-    border: 3px solid rgb(233, 230, 230);
+    border: 3px solid white;
     padding: 10px 15px;
     text-align: center;
     border-color: white;
@@ -127,6 +128,7 @@
     border-collapse: collapse;
     margin-left: 12em;
     margin-top: 20px;
+
 }
 
 .tr:nth-child(odd) td {
