@@ -56,10 +56,10 @@
 
 .th {
     text-align: center;
-    background-color: rgb(241, 151, 90);
+    background-color: rgb(194, 193, 192);
     color: white;
     padding: 10px 50px 10px 50px;
-    border: 1px solid rgba(29, 38, 39, 0.822);
+    border: 1px solid rgb(218, 217, 216);
     width: 150px;
 }
 
@@ -95,6 +95,7 @@
     border-collapse: collapse;
     margin: auto;
     margin-top: 5em;
+
 
 }
 
